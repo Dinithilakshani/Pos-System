@@ -1,0 +1,27 @@
+.Details2{
+margin-top: -440px;
+margin-left: 800px;
+}  
+input{
+    width: 600px;
+}
+#Order-Save{
+    width: 700px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 20Px;
+    margin-left: 50px;
+    font-size: 2rem;
+    color: white;
+}
+ #Order-PlaceOrder{
+    width: 700px;
+    height: 70px;
+    background-color: green;
+    border-radius: 20Px;
+   
+    font-size: 2rem;
+
+    /* color: white;
+    margin-top: -250px; */
+} 

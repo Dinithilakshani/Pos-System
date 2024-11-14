@@ -8,13 +8,14 @@
     rel="stylesheet">
     <link rel="stylesheet" href="/css/customer.css">
     <link rel="stylesheet" href="/css/item.css">
+    <link rel="stylesheet" href="/css/Order.css">
     <link rel="stylesheet" href="/index.css">
     
  </style>
 </head>
 <body>
     <header>
-        <img id="header" src="/assets/image/images__2_-removebg-preview.png" alt="">
+        <img src="/assets/image/images__2_-removebg-preview.png" alt="">
         <div class="title">
         <h1>Pos System</h1>
     </div>
@@ -91,16 +92,27 @@
     <section class="Order" id="Order">
         <h1><span>Order</span></h1>
         <H3 style="margin-left: 200px; font-size: 3rem;">Enter Item Details</H3><br>
-    <label for="Item-Id">Item Code :</label><br><br>
+    <label for="Order-Id">Order Id :</label><br><br>
     <input type="text"><br><br>
-    <label for=" Item-Name">Item Name :</label><br><br>
+    <label for=" Customer-Id">Customer Id :</label><br><br>
     <input type="text"><br><br>
     <label for="Unit-price">Unit Price :</label><br><br>
     <input type="text"><br><br>
     <label for="Qty">Qty :</label><br><br>
     <input type="text"><br><br>
-    <label for="Description">Description :</label><br><br>
+<div class="Details2">
+    <label for="Date">Date :</label><br><br>
+    <input type="text"><br><br>
+    <label for="Customer-Name"> Customer Name:</label><br><br>
+    <input type="text"><br><br>
+    <label for="Item-Name">Item Name:</label><br><br>
+    <input type="text"><br><br>
+    <label for="Qty On Hand">Qty On Hand</label><br><br>
     <input type="text">
+</div>
+<br><br><br><br>
+<button id="Order-Save">Save</button>     <button id="Order-PlaceOrder" > Place Order</button>
+<h1>order List</h1>
     </section>
 
 </body>
