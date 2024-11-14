@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: rgb(32, 21, 21);
+    color: white;
+    padding: 20px;
+}
+header{
+    display: flex;
+}
+.title{
+    margin-top: 50px;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+section{
+    min-height: 100vh;
+   
+}
+span{
+    color: var(--main-color);
+    font-size: 4rem;
+    margin-left: 100px;
+}
+
+:root{
+    --bg-color: #000000;
+    --second-bg-color: #111010;
+    --text-color: #eee4e4;
+    --main-color: rgb(12, 100, 38);
+}
+.navbar{
+    margin-top: 100px;
+}
+.navbar a{
+    margin-top: 60px;
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 7rem;
+    font-weight: 500;
+    transition: .3s;
+    border-bottom: 3px solid transparent;
+
+    
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
