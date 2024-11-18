@@ -1,5 +1,5 @@
 import { customer_arr, item_arr, order_arr, cart_arr, orderDetail_arr } from "../db/database.js";
-import OrderModel from "../model/orderModel.js";
+import OrderModel from "../model/order_model.js";
 import OrderDetailModel from "../model/orderDetail.js";
 
 export function loadCustomers() {

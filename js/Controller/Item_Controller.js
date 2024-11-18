@@ -1,6 +1,6 @@
-import ItemModel from "../model/itemModel.js";
+import ItemModel from "../model/item_model.js";
 import {item_arr} from "../db/database.js";
-import {loadItems} from "./OrderController.js";
+import {loadItems} from "./Order_Controller.js";
 
 
 $(document).ready(function (){
