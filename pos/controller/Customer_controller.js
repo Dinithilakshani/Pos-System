@@ -1,6 +1,6 @@
-import CustomerModel from "./model/customer_model.js";
+import CustomerModel from "../model/customerModel.js";
 import {customer_arr} from "../db/database.js";
-import {loadCustomers} from "./Order_Controller.js";
+import {loadCustomers} from "./OrderController.js";
 
 const validEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
