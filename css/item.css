@@ -1,47 +1,131 @@
-label{
-    padding: 50px;
-    font-size: 3rem;
-}
-input{
-    width: 700px;
-    height: 40px;
-    border-radius: 10px;
-    margin-left: 30px;
-    border: 4px solid black;
-}
-
-.Item-btn{
-    width: 150px;
-    height: 100px;
-    margin-top: -400px;
-    margin-left: 900px;
-}
-#Item-Delete{
-    width: 400px;
-    height: 70px;
-    border-radius: 20px;
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+  }
+  .item-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: 5px solid #459d5b;
+    margin-bottom: 30px;
+    h2 {
+      font-size: 30px;
+      margin-left: 0px;
+      margin-top: 70px;
+      font-weight: bold;
+    }
+  }
+  .card2 {
+    background: #b6eebd;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    height: 62vh;
+    margin-left: 0%;
+    border: 2px solid #459d51;
+  }
+  .card-header2 {
+    background: #459d49;
+    border-radius: 0px;
+    height: 7vh;
+    text-align: left;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    padding-left: 20px;
+    padding-top: 12px;
     color: white;
-    font-size: 2rem;
-}
-#Item-Save{
-    width: 400px;
-    height: 70px;
-    border-radius: 20px;
+  }
+  
+  #itbtn {
+    background: #26be00;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 140px;
+  }
+  #itbtn:hover {
+    background: #1e8a03;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+  }
+  #item_update_btn {
+    background: #f70404;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+  }
+  #item_update_btn:hover {
+    background: #b10303;
+    color: rgb(255, 255, 255);
+  }
+  #item_delete_btn {
+    background: #0460d8;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+  }
+  #item_delete_btn:hover {
+    background: #1904d8;
+    color: rgb(255, 255, 255);
+  }
+  #item_clean_btn {
+    background: #fceb05;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+  }
+  #item_clean_btn:hover {
+    background: #d8a704;
+    color: rgb(255, 255, 255);
+  }
+  
+  #item_form {
+    margin-top: 20px;
+  }
+  
+  .dashboard-section {
+    border: 4px solid red;
+    background: antiquewhite;
+  }
+  
+  #raw {
+    margin-top: -100px;
+  }
+  #tablerow > th {
     color: white;
-    font-size: 2rem;  
-}
-
-#Item-Update{
-    width: 400px;
-    height: 70px;
-    border-radius: 20px;
-    color: white;
-    font-size: 2rem;  
-}
-#Item-Clear{
-    width: 400px;
-    height: 70px;
-    border-radius: 20px;
-    color: white;
-    font-size: 2rem;  
-}
+    background: #459d54;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  
+  #itemTable {
+    margin-left: 0%;
+    width: 100%;
+  }
+  .dash > div:nth-child(3) {
+    box-shadow: rgb(38, 77, 48) 0px 20px 30px -10px;
+  }
+  
+  .dash > div > div {
+    box-shadow: rgb(38, 77, 45) 0px 20px 30px -10px;
+  }
+  
+  #ca_1 {
+    margin-top: 10px;
+  }
+  #ca_4 {
+    margin-top: -115px;
+  }
+  .col {
+    textarea {
+      width: 95%;
+      margin-left: 10px;
+      margin-left: 10px;
+    }
+  }
+  

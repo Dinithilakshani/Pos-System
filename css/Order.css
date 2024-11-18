@@ -1,27 +1,86 @@
-.Details2{
-margin-top: -440px;
-margin-left: 800px;
-}  
-input{
-    width: 600px;
-}
-#Order-Save{
-    width: 700px;
-    height: 70px;
-    background-color: blue;
-    border-radius: 20Px;
-    margin-left: 50px;
-    font-size: 2rem;
+.btn {
+    align-items: center;
+  }
+  .order-title {
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: 5px solid #4c9d45;
+    margin-bottom: 30px;
+    h2 {
+      font-size: 30px;
+      margin-left: 0px;
+      margin-top: 70px;
+      font-weight: bold;
+    }
+  }
+  .card3 {
+    margin-top: 10px;
+    background: #b6eec2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 90%;
+    height: 95vh;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #459d54;
+  }
+  
+  .card3-header {
+    font-size: 25px;
+    height: 7vh;
+    background: #459d4c;
     color: white;
-}
- #Order-PlaceOrder{
-    width: 700px;
-    height: 70px;
-    background-color: green;
-    border-radius: 20Px;
-   
-    font-size: 2rem;
-
-    /* color: white;
-    margin-top: -250px; */
-} 
+    padding-top: 12px;
+    padding-left: 20px;
+  }
+  .table {
+    margin-top: 50px;
+    border: 2px solid black;
+  }
+  
+  .form-control {
+    border: 2px solid black;
+  }
+  
+  .mb-3 > input {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  .mb-3 > select {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* border: 2px solid black; */
+  }
+  
+  .form-label {
+    color: black;
+  }
+  #orSaveBtn {
+    align-items: center;
+  }
+  .table-light {
+    background: #e40202;
+    color: white;
+  }
+  #order-section {
+    margin-left: 110px;
+    width: 84%;
+  }
+  #row > th {
+    color: white;
+    background: #459d49;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .ord-btn {
+    display: flex;
+  }
+  #cusId{
+      margin-bottom: 0.5rem;
+  }
+  #iCode{
+      margin-bottom: 0.5rem;
+  }
+  
